@@ -1,0 +1,59 @@
+.navigation-web {
+  height: 86px;
+  position: relative;
+  width: 1440px;
+}
+
+.navigation-web .line {
+  height: 1px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 1441px;
+}
+
+.navigation-web .buttons-label-icon-transparent-resting-onlight {
+  left: unset !important;
+  top: 12px !important;
+}
+
+.navigation-web .buttons-icon-outline-resting-onlight {
+  left: 13px !important;
+  top: 13px !important;
+}
+
+.navigation-web .links {
+  align-items: center;
+  display: inline-flex;
+  gap: 22px;
+  left: 80px;
+  position: absolute;
+  top: 34px;
+}
+
+.navigation-web .div {
+  color: var(--x-00000-0primary);
+  font-family: var(--12px-bold-font-family);
+  font-size: var(--12px-bold-font-size);
+  font-style: var(--12px-bold-font-style);
+  font-weight: var(--12px-bold-font-weight);
+  letter-spacing: var(--12px-bold-letter-spacing);
+  line-height: var(--12px-bold-line-height);
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.navigation-web .element-all-rights-re {
+  color: var(--x-74-7a-80);
+  font-family: var(--12px-medium-font-family);
+  font-size: var(--12px-medium-font-size);
+  font-style: var(--12px-medium-font-style);
+  font-weight: var(--12px-medium-font-weight);
+  letter-spacing: var(--12px-medium-letter-spacing);
+  line-height: var(--12px-medium-line-height);
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}

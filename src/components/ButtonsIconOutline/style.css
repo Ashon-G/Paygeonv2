@@ -1,0 +1,23 @@
+.buttons-icon-outline {
+  border: 1px solid;
+  border-color: var(--cfdbd5outline-onlight);
+  border-radius: 8px;
+  height: 52px;
+  position: relative;
+  width: 52px;
+}
+
+.buttons-icon-outline .text-wrapper {
+  color: var(--x-00000-0primary);
+  font-family: var(--icons-18px-font-family);
+  font-size: var(--icons-18px-font-size);
+  font-style: var(--icons-18px-font-style);
+  font-weight: var(--icons-18px-font-weight);
+  left: 16px;
+  letter-spacing: var(--icons-18px-letter-spacing);
+  line-height: var(--icons-18px-line-height);
+  position: absolute;
+  text-align: center;
+  top: 16px;
+  white-space: nowrap;
+}

@@ -1,0 +1,1 @@
+export { ButtonsLabelIcon } from "./ButtonsLabelIcon";
