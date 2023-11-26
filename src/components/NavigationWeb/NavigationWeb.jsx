@@ -8,6 +8,18 @@ import React from "react";
 import { ButtonsIconOutline } from "../ButtonsIconOutline";
 import { ButtonsLabelIcon } from "../ButtonsLabelIcon";
 import "./style.css";
+import MagicBell, { FloatingNotificationInbox } from "@magicbell/magicbell-react";
+
+const theme = {
+  header: {
+    fontFamily: 'inherit',
+    backgroundColor: '#FFFFFF',
+    textColor: '#5225C1',
+    fontSize: '15px',
+    borderRadius: '10px',
+  },
+  // ... other theme configurations
+};
 
 export const NavigationWeb = ({
   className,
@@ -25,6 +37,15 @@ export const NavigationWeb = ({
         text="English"
         text1=""
       />
+      <MagicBell
+        apiKey="b8b27eda9fc333e25eefe20f6f11cdae6ee2c46c"
+        userEmail="vashon@kaped.io"
+        theme={theme}
+        locale="en"
+      >
+        {(props) => <FloatingNotificationInbox width={400} height={500} {...props} />}
+      </MagicBell>
+
       <ButtonsIconOutline
         className={buttonsIconOutlineButtonsIconOutlineClassName}
         iconClassName="buttons-icon-outline-resting-onlight"
