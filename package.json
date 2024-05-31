@@ -35,6 +35,6 @@
     "parcel": "^2.8.0",
     "parcel-reporter-static-files-copy": "^1.5.0",
     "process": "^0.11.10",
-    "storybook": "7.2.0"
+    "storybook": "8.1.5"
   }
 }
